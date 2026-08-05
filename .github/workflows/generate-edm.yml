@@ -16,10 +16,6 @@ permissions:
   contents: write
   actions: write
 
-concurrency:
-  group: generate-edm-main
-  cancel-in-progress: false
-
 jobs:
   generate:
     name: Analyze image and generate eDM files
